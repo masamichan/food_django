@@ -1,0 +1,8 @@
+from . import views
+from django.urls import path
+
+urlpatterns = [
+    # path('hello/', views.index, name="index"),
+    # path('food/',views.index, name="index" ),
+    # path('item/', views.item, name="item"),
+]

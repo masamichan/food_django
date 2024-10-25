@@ -8,7 +8,7 @@ def index(request):
   item_list = Item.objects.all()
   template = loader.get_template('food/index.html')
 
-  context = {
+  context= {
 
   }
   return HttpResponse(template.render(context,request))
